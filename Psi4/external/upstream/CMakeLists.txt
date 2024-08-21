@@ -1,0 +1,24 @@
+# Note: order is important as some projects might be interdependent
+foreach(dir
+  pybind11
+  ambit
+  chemps2
+  cppe
+  dkh
+  libefp
+  erd
+  gau2grid
+  gdma
+  libint
+  libint2
+  mdi
+  pcmsolver
+  pylibefp
+  qcelemental
+  qcengine
+  simint
+  libxc
+  brianqc
+  )
+  add_subdirectory(${dir})
+endforeach()

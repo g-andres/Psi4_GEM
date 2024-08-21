@@ -1,0 +1,11 @@
+prefix=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage
+exec_prefix=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage
+libdir=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage/lib
+includedir=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage/include
+
+Name: libxc
+Description: Library of exchange and correlation functionals to be used in DFT codes
+Requires:
+Version: 5.1.5
+Libs: -L${libdir} -lxc
+Cflags: -I${includedir}

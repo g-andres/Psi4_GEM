@@ -1,0 +1,10 @@
+prefix=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage
+exec_prefix=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage
+libdir=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage/lib
+includedir=/home/andres/PROGRAMS/Psi4_GEM/Psi4/objdir/stage/include
+
+Name: libint2
+Description: a library for the evaluation of molecular integrals of many-body operators over Gaussian functions
+Version: 
+Libs: -L${libdir} -lint2
+Cflags: -I${includedir} -I${includedir}/libint2

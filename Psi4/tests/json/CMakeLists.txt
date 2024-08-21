@@ -1,0 +1,7 @@
+add_subdirectory(schema-1-energy)
+add_subdirectory(schema-1-ghost)
+add_subdirectory(schema-1-orient)
+add_subdirectory(schema-1-throws)
+add_subdirectory(schema-1-gradient)
+add_subdirectory(schema-1-properties)
+add_subdirectory(schema-1-response)
